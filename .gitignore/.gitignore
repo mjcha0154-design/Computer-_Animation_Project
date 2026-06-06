@@ -1,1 +1,77 @@
+# https://www.toptal.com/developers/gitignore/api/unity 에서 생성됨
+# https://www.toptal.com/developers/gitignore?templates=unity 에서 수정하세요
 
+### 유니티 ###
+# 이 .gitignore 파일은 Unity 프로젝트 디렉토리의 루트에 위치해야 합니다.
+#
+# https://github.com/github/gitignore/blob/main/Unity.gitignore 에서 최신 버전을 가져오세요
+/[Ll]도서관/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]빌드/
+/[Bb]건물/
+/[Ll]ogs/
+/[Uu]ser[Ss]설정/
+
+# MemoryCaptures의 크기가 지나치게 커질 수 있습니다.
+# 또한 매우 민감한 데이터가 포함될 수도 있습니다.
+/[Mm]emoryCaptures/
+
+# 녹음 파일 크기가 지나치게 커질 수 있습니다
+/[Rr]녹음/
+
+# 에셋 스토어 도구 플러그인을 무시하려면 이 줄의 주석 처리를 해제하세요.
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider 플러그인 자동 생성
+/[Aa]sets/플러그인/에디터/JetBrains*
+
+# Visual Studio 캐시 디렉터리
+.vs/
+
+# Gradle 캐시 디렉토리
+.gradle/
+
+# VS/MD/Consulo 솔루션 및 프로젝트 파일 자동 생성
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.수오
+*.tmp
+*.사용자
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D에서 생성된 메타 파일
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D에서 생성된 충돌 보고서 파일
+시스템 정보 파일
+
+# 빌드
+*.apk
+*.aab
+*.유니티패키지
+*.앱
+
+# Crashlytics에서 생성된 파일
+크래시라이틱스 빌드 속성
+
+# 패킹된 주소 지정 가능 항목
+/[Aa]자산/[Aa]주소 지정 가능[Aa]자산[Dd]데이터/*/*.bin*
+
+# 임시로 자동 생성된 Android 에셋
+/[Aa]자산/[Ss]스트리밍자산/aa.meta
+/[Aa]자산/[Ss]스트리밍자산/aa/*
+
+# https://www.toptal.com/developers/gitignore/api/unity 끝
